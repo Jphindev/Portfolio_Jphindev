@@ -48,7 +48,7 @@ export async function sendEmail(
 	try {
 		const { data, error } = await resend.emails.send({
 			from: "Portfolio Contact Form <onboarding@resend.dev>",
-			to: ["jp.herfeld@gmail.com"],
+			to: ["jphindev@gmail.com"],
 			reply_to: email,
 			subject: "Message de " + name,
 			text: message,

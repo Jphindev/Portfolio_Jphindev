@@ -49,6 +49,8 @@ export async function createPost(
 
 		newPost.save();
 
+		await new Promise((resolve) => setTimeout(resolve, 3000));
+
 		revalidatePath("/testimonials");
 	} catch (error) {
 		console.log(error);

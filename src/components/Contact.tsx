@@ -14,7 +14,7 @@ export default function Contact() {
 				ou tout simplement par mail.
 			</p>
 			<p className="mb-3">
-				<span>jp.herfeld@gmail.com</span>
+				<span>jphindev@gmail.com</span>
 			</p>
 			<MenuItem
 				title="LinkedIn"
