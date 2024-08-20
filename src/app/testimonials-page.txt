@@ -1,3 +1,5 @@
+// A mettre dans app/testimonials/page.tsx
+
 // import MsgList from "@/components/MsgList";
 // import { Suspense } from "react";
 // import connectDB from "@/lib/db";

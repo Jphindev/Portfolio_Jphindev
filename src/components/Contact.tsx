@@ -22,7 +22,7 @@ export default function Contact() {
 				title="LinkedIn"
 				href="https://www.linkedin.com/in/jp-herfeld/"
 				target="_blank"
-				src="/icons/linkedin.svg"
+				src="/photos/linkedin.svg"
 				width={24}
 				height={27}
 			/>

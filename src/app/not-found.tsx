@@ -9,7 +9,7 @@ export default function NotFound() {
 				title="Accueil"
 				href="/"
 				target="_self"
-				src="/icons/home.svg"
+				src="/photos/home.svg"
 				width={24}
 				height={24}
 			/>

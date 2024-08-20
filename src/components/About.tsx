@@ -104,7 +104,7 @@ export default function About() {
 							title="CV"
 							href="/docs/jphindev.pdf"
 							target="_blank"
-							src="/icons/cv.svg"
+							src="/photos/cv.svg"
 							width={24}
 							height={24}
 						/>
@@ -112,7 +112,7 @@ export default function About() {
 							title="Skills"
 							href="https://miro.com/app/board/uXjVK-F7nmo=/?share_link_id=715896338711"
 							target="_blank"
-							src="/icons/mindmap.svg"
+							src="/photos/mindmap.svg"
 							width={24}
 							height={24}
 						/>
@@ -120,7 +120,7 @@ export default function About() {
 							title="Github"
 							href="https://github.com/JeanPhiH"
 							target="_blank"
-							src="/icons/github.svg"
+							src="/photos/github.svg"
 							width={24}
 							height={24}
 						/>

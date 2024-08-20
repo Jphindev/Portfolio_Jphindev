@@ -42,7 +42,7 @@ export default function Navbar() {
 					title="Accueil"
 					href="/#home"
 					target="_self"
-					src="/icons/home.svg"
+					src="/photos/home.svg"
 					width={24}
 					height={24}
 				/>
@@ -50,7 +50,7 @@ export default function Navbar() {
 					title="Projets"
 					href="/#projects"
 					target="_self"
-					src="/icons/project.svg"
+					src="/photos/project.svg"
 					width={24}
 					height={24}
 				/>
@@ -58,7 +58,7 @@ export default function Navbar() {
 					title="Contact"
 					href="/#contact"
 					target="_self"
-					src="/icons/mail.svg"
+					src="/photos/mail.svg"
 					width={24}
 					height={24}
 				/>
@@ -66,7 +66,7 @@ export default function Navbar() {
 					title="Avis"
 					href="/#testimonials"
 					target="_self"
-					src="/icons/testimonial.svg"
+					src="/photos/testimonial.svg"
 					width={24}
 					height={24}
 				/>
@@ -74,7 +74,7 @@ export default function Navbar() {
 					title="CV"
 					href="/docs/jphindev.pdf"
 					target="_blank"
-					src="/icons/cv.svg"
+					src="/photos/cv.svg"
 					width={24}
 					height={24}
 				/>
@@ -82,7 +82,7 @@ export default function Navbar() {
 					title="LinkedIn"
 					href="https://www.linkedin.com/in/jp-herfeld/"
 					target="_blank"
-					src="/icons/linkedin.svg"
+					src="/photos/linkedin.svg"
 					width={24}
 					height={27}
 				/>
@@ -90,7 +90,7 @@ export default function Navbar() {
 			</nav>
 			<Image
 				ref={burgerRef}
-				src="/icons/burger-menu.svg"
+				src="/photos/burger-menu.svg"
 				alt="Menu Burger"
 				width={40}
 				height={40}

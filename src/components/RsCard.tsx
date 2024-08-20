@@ -31,7 +31,7 @@ export default function RsCard({
 					title="Site"
 					href={RsLink}
 					target="_blank"
-					src="/icons/websitefilled.svg"
+					src="/photos/websitefilled.svg"
 					width={24}
 					height={24}
 				/>

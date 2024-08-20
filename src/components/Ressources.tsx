@@ -21,21 +21,21 @@ export default function Ressources() {
 				/>
 				<RsCard
 					RsName="École du web"
-					RsIcon="/icons/ecoleduweb.png"
+					RsIcon="/photos/ecoleduweb.png"
 					RsPic="/photos/RsPic-ecoleduwebcut.png"
 					RsLink="https://www.youtube.com/@EcoleduWeb"
 					RsNote="J'ai particulièrment aimé les vidéos sur le CSS et notamment le langage Sass (Scss)."
 				/>
 				<RsCard
 					RsName="Code Concept"
-					RsIcon="/icons/codeconcept.jpg"
+					RsIcon="/photos/codeconcept.jpg"
 					RsPic="/photos/RsPic-codeconceptcut.png"
 					RsLink="https://www.youtube.com/watch?v=7KC8QQXXN1M"
 					RsNote="Pour moi la meilleure explication de React qui existe."
 				/>
 				<RsCard
 					RsName="ByteGrad"
-					RsIcon="/icons/bytegrad.webp"
+					RsIcon="/photos/bytegrad.webp"
 					RsPic="/photos/RsPic-bytegradthumb.webp"
 					RsLink="https://www.youtube.com/@ByteGrad"
 					RsNote="Je n'aurais jamais pu faire ce portfolio sans ses explications sur Next 14."

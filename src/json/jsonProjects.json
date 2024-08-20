@@ -6,19 +6,19 @@
 		"technoIcons": [
 			{
 				"technoTitle": "html",
-				"technoSrc": "/icons/html5.svg",
+				"technoSrc": "/photos/html5.svg",
 				"technow": 24,
 				"technoh": 32
 			},
 			{
 				"technoTitle": "CSS",
-				"technoSrc": "/icons/css3.svg",
+				"technoSrc": "/photos/css3.svg",
 				"technow": 27,
 				"technoh": 27
 			},
 			{
 				"technoTitle": "Javascript",
-				"technoSrc": "/icons/javascript.svg",
+				"technoSrc": "/photos/javascript.svg",
 				"technow": 24,
 				"technoh": 27
 			}
@@ -26,7 +26,7 @@
 		"linksIcons": [
 			{
 				"linkAlt": "Github",
-				"linkSrc": "/icons/github.svg",
+				"linkSrc": "/photos/github.svg",
 				"linkHref": "https://github.com/JeanPhiH/Projet_3",
 				"linkTarget": "_blank"
 			}
@@ -49,19 +49,19 @@
 		"technoIcons": [
 			{
 				"technoTitle": "SEO",
-				"technoSrc": "/icons/seo.svg",
+				"technoSrc": "/photos/seo.svg",
 				"technow": 24,
 				"technoh": 24
 			},
 			{
 				"technoTitle": "Lighhouse",
-				"technoSrc": "/icons/lighthouse.svg",
+				"technoSrc": "/photos/lighthouse.svg",
 				"technow": 24,
 				"technoh": 24
 			},
 			{
 				"technoTitle": "WAVE",
-				"technoSrc": "/icons/WAVE.webp",
+				"technoSrc": "/photos/WAVE.webp",
 				"technow": 24,
 				"technoh": 24
 			}
@@ -69,13 +69,13 @@
 		"linksIcons": [
 			{
 				"linkAlt": "Github",
-				"linkSrc": "/icons/github.svg",
+				"linkSrc": "/photos/github.svg",
 				"linkHref": "https://github.com/JeanPhiH/Projet_5",
 				"linkTarget": "_blank"
 			},
 			{
 				"linkAlt": "Site",
-				"linkSrc": "/icons/external-link.svg",
+				"linkSrc": "/photos/external-link.svg",
 				"linkHref": "https://jeanphih.github.io/Projet_5/",
 				"linkTarget": "_blank"
 			}
@@ -98,13 +98,13 @@
 		"technoIcons": [
 			{
 				"technoTitle": "React",
-				"technoSrc": "/icons/react.svg",
+				"technoSrc": "/photos/react.svg",
 				"technow": 24,
 				"technoh": 24
 			},
 			{
 				"technoTitle": "Sass",
-				"technoSrc": "/icons/sass.svg",
+				"technoSrc": "/photos/sass.svg",
 				"technow": 24,
 				"technoh": 24
 			}
@@ -112,13 +112,13 @@
 		"linksIcons": [
 			{
 				"linkAlt": "Github",
-				"linkSrc": "/icons/github.svg",
+				"linkSrc": "/photos/github.svg",
 				"linkHref": "https://github.com/JeanPhiH/Projet_6",
 				"linkTarget": "_blank"
 			},
 			{
 				"linkAlt": "Site",
-				"linkSrc": "/icons/external-link.svg",
+				"linkSrc": "/photos/external-link.svg",
 				"linkHref": "https://projet-6-psi.vercel.app/",
 				"linkTarget": "_blank"
 			}
@@ -141,19 +141,19 @@
 		"technoIcons": [
 			{
 				"technoTitle": "Node",
-				"technoSrc": "/icons/node-js.svg",
+				"technoSrc": "/photos/node-js.svg",
 				"technow": 24,
 				"technoh": 27
 			},
 			{
 				"technoTitle": "Express",
-				"technoSrc": "/icons/express.svg",
+				"technoSrc": "/photos/express.svg",
 				"technow": 24,
 				"technoh": 27
 			},
 			{
 				"technoTitle": "MongoDB",
-				"technoSrc": "/icons/mongodb.svg",
+				"technoSrc": "/photos/mongodb.svg",
 				"technow": 24,
 				"technoh": 27
 			}
@@ -161,7 +161,7 @@
 		"linksIcons": [
 			{
 				"linkAlt": "Github",
-				"linkSrc": "/icons/github.svg",
+				"linkSrc": "/photos/github.svg",
 				"linkHref": "https://github.com/JeanPhiH/Projet_7",
 				"linkTarget": "_blank"
 			}
