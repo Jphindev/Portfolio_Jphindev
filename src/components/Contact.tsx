@@ -1,5 +1,6 @@
 import MenuItem from "./MenuItem";
-import ContactForm from "./ContactForm";
+// import ContactForm from "./ContactForm";
+import Link from "next/link";
 
 export default function Contact() {
 	return (
@@ -10,11 +11,12 @@ export default function Contact() {
 				Mes compétences vous intéressent et vous souhaitez me contacter ?
 			</p>
 			<p className="text-center mb-5">
-				Vous pouvez le faire avec le formulaire ci-dessous, via ma page LinkedIn
-				ou tout simplement par mail.
+				Vous pouvez le faire via ma page LinkedIn ou tout simplement par mail.
 			</p>
-			<p className="mb-3">
-				<span>jphindev@gmail.com</span>
+			<p className="mb-5">
+				<span>
+					<Link href="mailto:jphindev@gmail.com">jphindev@gmail.com</Link>
+				</span>
 			</p>
 			<MenuItem
 				title="LinkedIn"
@@ -24,7 +26,7 @@ export default function Contact() {
 				width={24}
 				height={27}
 			/>
-			<ContactForm />
+			{/* <ContactForm /> */}
 		</section>
 	);
 }

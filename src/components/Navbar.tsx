@@ -64,7 +64,7 @@ export default function Navbar() {
 				/>
 				<MenuItem
 					title="Avis"
-					href="/testimonials"
+					href="/#testimonials"
 					target="_self"
 					src="/icons/testimonial.svg"
 					width={24}

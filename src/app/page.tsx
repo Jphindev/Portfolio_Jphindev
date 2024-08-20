@@ -3,6 +3,7 @@ import About from "@/components/About";
 import Projects from "@/components/Projects";
 import Ressources from "@/components/Ressources";
 import Contact from "@/components/Contact";
+import MsgList from "@/components/MsgList";
 
 export default function Home() {
 	//SCHEMA.ORG
@@ -32,6 +33,7 @@ export default function Home() {
 			<Projects />
 			<Ressources />
 			<Contact />
+			<MsgList />
 			<section>
 				{/* Add JSON-LD to your page */}
 				<script

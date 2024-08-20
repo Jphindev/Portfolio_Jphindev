@@ -14,7 +14,7 @@ export default function Ressources() {
 			<div className="flex flex-col sm:flex-row sm:flex-wrap justify-center items-center gap-5 mt-8">
 				<RsCard
 					RsName="Pierre Giraud"
-					RsIcon="/icons/pierregiraud.png"
+					RsIcon="/photos/pierregiraud.png"
 					RsPic="/photos/RsPic-PGcut.png"
 					RsLink="https://www.pierre-giraud.com/"
 					RsNote="Son cours m'a fait aimé JavaScript, même si c’est un peu trop détaillé parfois."

@@ -1,0 +1,44 @@
+[
+	{
+		"name": "Zakaria",
+		"lastname": "Eddouh",
+		"postdate": "20/06/2024",
+		"linkedin": "https://www.linkedin.com/in/zakariaeddouh",
+		"message": "(Commentaire d'évaluation du Projet Javascript Sophie Bluel)\n Jean-Philippe a effectué une présentation remarquable dans le délai imparti, répondant avec précision aux questions et démontrant une expertise parfaite dans le projet. Toutes mes remarques ont été prises en compte de manière satisfaisante.\n (Publié avec l'autorisation de l'auteur)"
+	},
+	{
+		"name": "Jordi",
+		"lastname": "C",
+		"postdate": "20/06/2024",
+		"linkedin": "https://www.linkedin.com/",
+		"message": "(Commentaire d'évaluation du Projet Debug et Optimisation)\n Bel historique Git (une cinquantaine de commits, messages de commit clairs). L'élève est allé bien au dela de l'attendu sur l'accessibilité : avec notamment par exemple l'ajout de la navigation au tab sur l'écran. Les scores obtenus après optimisation sont excellents.\n Discours très très complet pendant la soutenance, je tiens à la signaler car c'est assez rare que la présentation soit aussi complète.\n (Publié avec l'autorisation de l'auteur)"
+	},
+	{
+		"name": "Roland",
+		"lastname": "Niokhor Faye",
+		"postdate": "20/06/2024",
+		"linkedin": "https://www.linkedin.com/in/roland-niokhor-f-225694138/",
+		"message": "(Commentaire d'évaluation du Projet Backend)\n Excellente soutenance : la posture était professionnelle, les explications claires et le temps imparti bien respecté. L'aspect sécurité a bien été utilisé aussi. Jean-Philippe a fait preuve de professionnalisme et a acquis les compétences évaluées.\n (Publié avec l'autorisation de l'auteur)"
+	},
+	{
+		"name": "Hanh",
+		"lastname": "Nguyen",
+		"postdate": "24/06/2024",
+		"linkedin": "https://www.linkedin.com/in/hanh-nguyen-dev",
+		"message": "J'adore ton site, il est superbe ! C'est génial de voir à quel point tu mets du coeur dans tout ce que tu entreprends.\n C'est vraiment un plaisir d'être ta collègue de promo ! Tu es toujours prêt à aider les copains, super consciencieux et tu maitrises parfaitement ce que tu fais.\n Merci d'être un si bon camarade !"
+	},
+	{
+		"name": "Nelly",
+		"lastname": "Bise",
+		"postdate": "25/06/2024",
+		"linkedin": "https://www.linkedin.com/in/nelly-bise/",
+		"message": "Au cours de notre formation, j'ai eu l'occasion de constater à quel point Jean-Philippe s'engage pleinement dans tout ce qu'il entreprend. Il ne se contente jamais du minimum attendu, il va toujours au-delà pour offrir un meilleur service. Je n'ai aucun doute que Jean-Philippe continuera à exceller dans tout ce qu'il entreprend. Je lui souhaite beaucoup de succès dans sa nouvelle carrière."
+	},
+	{
+		"name": "Séverine",
+		"lastname": "Carré",
+		"postdate": "08/07/2024",
+		"linkedin": "https://www.linkedin.com/in/carreseverine/",
+		"message": "(Commentaire d'évaluation du Portfolio)\n Lors de cette soutenance finale, vous avez su démontrer votre implication et votre professionnalisme. Vous avez scrupuleusement respecté les exigences du cahier des charges. Chaque élément demandé a été abordé avec précision et minutie, témoignant de votre capacité à suivre des directives tout en apportant une touche personnelle à votre travail. Le portfolio présenté est non seulement fonctionnel mais aussi esthétiquement plaisant, reflétant un bon équilibre entre design et fonctionnalité. Votre portfolio est une vitrine de vos compétences techniques. Vous avez utilisé des technologies modernes et pertinentes, démontrant ainsi votre capacité à rester à jour avec les évolutions du secteur.\n Votre présentation a été particulièrement remarquable. Vous savez captiver votre audience. Votre discours était bien structuré, chaque section de votre portfolio étant expliquée avec des détails pertinents et convaincants. Vous avez su mettre en valeur vos compétences acquises tout au long de votre formation, illustrant chacune avec des exemples concrets de projets réalisés. Il est évident que vous continuerez à progresser avec succès dans votre carrière de développeur web. Je vous souhaite beaucoup de succès dans vos futures entreprises et je suis convaincue que vous apporterez une contribution significative à toute équipe ou projet auquel vous participerez.\n (Publié avec l'autorisation de l'autrice)"
+	}
+]

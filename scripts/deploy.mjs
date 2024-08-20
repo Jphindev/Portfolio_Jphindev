@@ -1,5 +1,6 @@
 import dotenv from "dotenv";
 import FtpDeploy from "ftp-deploy";
+import path from "path";
 
 dotenv.config({ path: "./.env" });
 
@@ -21,7 +22,7 @@ async function main() {
 			exclude: [], // Exclude no files
 
 			deleteRemote: false, // Set to true if you want to delete ALL FILES in the remote root before uploading
-			forcePasv: true, // Use passive mode
+			forcePasv: false, // true=Use passive mode
 		});
 
 		console.log("Succesfully deployed site");
