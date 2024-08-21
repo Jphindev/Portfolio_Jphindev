@@ -7,28 +7,30 @@ import Header from "@/components/Header";
 export const metadata: Metadata = {
 	title: "Jphindev’s Portfolio",
 	description:
-		"Portfolio de Jphindev aka Jean-Philippe Herfeld, dévelopeur web Next, React, Typescript et TailwindCSS, basé à Metz ou full remote.",
+		"Portfolio de Jean-Philippe Herfeld (Jphindev), dévelopeur intégrateur web Next.js, React.js, Typescript et TailwindCSS, basé à Metz ou télétravail.",
 	keywords: [
 		"portfolio",
+		"Jean-Philippe Herfeld",
 		"jphindev",
 		"developeur web",
+		"intégrateur web",
 		"next.js",
 		"react.js",
 		"typescript",
 		"tailwindcss",
 		"Metz",
-		"full remote",
+		"télétravail",
 	],
 	creator: "Jphindev",
-	metadataBase: new URL("https://jphindev.vercel.app/"),
+	metadataBase: new URL("https://jphindev.com/"),
 	alternates: {
 		canonical: "/",
 	},
 	openGraph: {
 		title: "Jphindev’s portfolio",
 		description:
-			"Portfolio de Jphindev aka Jean-Philippe Herfeld, dévelopeur web Next, React, Typescript et TailwindCSS, basé à Metz ou full remote.",
-		url: "https://jphindev.vercel.app/",
+			"Portfolio de Jean-Philippe Herfeld (Jphindev), dévelopeur intégrateur web Next.js, React.js, Typescript et TailwindCSS, basé à Metz ou télétravail.",
+		url: "https://jphindev.com/",
 		type: "website",
 		siteName: "Jphindev’s portfolio",
 		images: [

@@ -14,7 +14,7 @@ export default function Home() {
 		image:
 			"https://projet-8-portfolio-gamma.vercel.app/_next/image?url=%2Fphotos%2Fmoi.webp&w=640&q=75",
 		description:
-			"Portfolio de Jphindev aka Jean-Philippe Herfeld, dévelopeur web NextJS, React, Typescript et TailwindCSS, basé à Metz ou full remote.",
+			"Portfolio de Jean-Philippe Herfeld (Jphindev), dévelopeur intégrateur web Next.js, React.js, Typescript et TailwindCSS, basé à Metz ou télétravail.",
 		address: {
 			"@type": "PostalAddress",
 			addressLocality: "Metz",
@@ -22,9 +22,9 @@ export default function Home() {
 			postalCode: "57000",
 			addressCountry: "FR",
 		},
-		url: "https://jphindev.vercel.app/",
+		url: "https://jphindev.com/",
 		keywords:
-			"portfolio, dévelopeur web, next.js, react.js, typescript, tailwindcss, Metz, full remote",
+			"portfolio, dévelopeur web, intégrateur web,next.js, react.js, typescript, tailwindcss, Metz, télétravail",
 	};
 	return (
 		<>

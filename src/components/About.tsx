@@ -102,7 +102,7 @@ export default function About() {
 					<div className="flex justify-center gap-3">
 						<MenuItem
 							title="CV"
-							href="/docs/jphindev.pdf"
+							href="/docs/JP_HERFELD_CV_Developpeur_web.pdf"
 							target="_blank"
 							src="/photos/cv.svg"
 							width={24}

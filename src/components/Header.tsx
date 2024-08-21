@@ -8,7 +8,7 @@ export default function Header() {
 			<div className="flex gap-5">
 				<LogoJP />
 				<h1>
-					<Link href="/">jphindev</Link>
+					<Link href="/">Jphindev</Link>
 				</h1>
 			</div>
 			<Navbar />
