@@ -11,8 +11,7 @@ export default function Home() {
 		"@context": "https://schema.org",
 		"@type": "Person",
 		name: "Jean-Philippe Herfeld",
-		image:
-			"https://projet-8-portfolio-gamma.vercel.app/_next/image?url=%2Fphotos%2Fmoi.webp&w=640&q=75",
+		image: "https://jphindev.com/photos/jphindevOG.webp",
 		description:
 			"Portfolio de Jean-Philippe Herfeld (Jphindev), dévelopeur intégrateur web Next.js, React.js, Typescript et TailwindCSS, basé à Metz ou télétravail.",
 		address: {
@@ -24,7 +23,7 @@ export default function Home() {
 		},
 		url: "https://jphindev.com/",
 		keywords:
-			"portfolio, dévelopeur web, intégrateur web,next.js, react.js, typescript, tailwindcss, Metz, télétravail",
+			"portfolio, dévelopeur web, intégrateur web, next.js, react.js, typescript, tailwindcss, Metz, télétravail",
 	};
 	return (
 		<>
