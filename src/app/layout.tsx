@@ -7,7 +7,7 @@ import Header from "@/components/Header";
 export const metadata: Metadata = {
 	title: "Jphindev’s Portfolio",
 	description:
-		"Portfolio de Jean-Philippe Herfeld (Jphindev), dévelopeur intégrateur web Next.js, React.js, Typescript et TailwindCSS, basé à Metz ou télétravail.",
+		"Portfolio de Jean-Philippe Herfeld (Jphindev), dévelopeur intégrateur web Next.js, React.js, Typescript et TailwindCSS, basé à Metz 57000 ou télétravail.",
 	keywords: [
 		"portfolio",
 		"Jean-Philippe Herfeld",
