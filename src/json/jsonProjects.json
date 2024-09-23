@@ -175,5 +175,53 @@
 			{ "skill": "Sécurisation de la base de données" },
 			{ "skill": "Authentification et connexion via token" }
 		]
+	},
+	{
+		"title": "Jeu de réflexe en JavaScript",
+		"imgSrc": "/photos/Pres_TWE.webp",
+		"imgAlt": "Jeu Javascript",
+		"technoIcons": [
+			{
+				"technoTitle": "html",
+				"technoSrc": "/photos/html5.svg",
+				"technow": 24,
+				"technoh": 32
+			},
+			{
+				"technoTitle": "CSS",
+				"technoSrc": "/photos/css3.svg",
+				"technow": 27,
+				"technoh": 27
+			},
+			{
+				"technoTitle": "Javascript",
+				"technoSrc": "/photos/javascript.svg",
+				"technow": 24,
+				"technoh": 27
+			}
+		],
+		"linksIcons": [
+			{
+				"linkAlt": "Github",
+				"linkSrc": "/photos/github.svg",
+				"linkHref": "https://github.com/Jphindev/Waterlily",
+				"linkTarget": "_blank"
+			},
+			{
+				"linkAlt": "Site",
+				"linkSrc": "/photos/external-link.svg",
+				"linkHref": "https://jphindev.github.io/Waterlily/",
+				"linkTarget": "_blank"
+			}
+		],
+		"mission": "Créer un jeu avec du JavaScript et des animations CSS",
+		"constraints": "Utilisation des langages html, CSS et Javascript seuls",
+		"issues": "Gestion des addeventlisteners imbriqués qui s'activaient en boucle: résolu grâce à un systéme de sauvegarde en localstorage qui permet le reset des écouteurs.",
+		"skills": [
+			{ "skill": "Animations CSS" },
+			{ "skill": "Maîtrise de la portée des addeventlisteners" },
+			{ "skill": "Difficulté progressive" },
+			{ "skill": "Changement dynamique du pointeur de la souris" }
+		]
 	}
 ]
