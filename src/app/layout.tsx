@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { ubuntu, ubuntu_mono, galindo } from "@/app/ui/fonts";
 import "./globals.css";
 import Header from "@/components/Header";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 // METADATA
 export const metadata: Metadata = {
@@ -54,6 +55,7 @@ export default function RootLayout({
 			lang="fr"
 			className={`${ubuntu.variable} ${ubuntu_mono.variable} ${galindo.variable}`}
 		>
+			<GoogleAnalytics />
 			<body className="h-screen mx-auto font-ubuntu text-lg text-light bg-dark dark:text-dark dark:bg-light">
 				<div className="bg-light/25 dark:bg-highdark/25 absolute top-[50rem] -z-10 right-0 h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] "></div>
 				<div className="bg-light/25 dark:bg-highdark/25 absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem]"></div>
