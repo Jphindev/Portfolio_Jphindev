@@ -19,19 +19,20 @@ export default function About() {
 							et je suis développeur web junior.
 						</p>
 						<p className="mt-3">
-							J’ai étudié chez OpenClassrooms afin de réaliser une reconversion
-							professionnelle. J’ai aimé l’importance accordée à la{" "}
-							<span>pratique</span> et à l’
-							<span>autonomie</span>.
+							Après ma formation qui a démarré ma reconversion professionnelle,
+							je continue à me former de façon <span>autonome</span> sur de
+							nouveaux langages que je mets en pratique via des{" "}
+							<span>projets personnels</span>.
 						</p>
 						<p className="mt-3">
 							J’aime les distributions <span>Linux</span>, la logique{" "}
-							<span>React</span> et les <span>animations CSS</span>.
+							<span>React</span> couplée avec <span>Next</span> et les{" "}
+							<span>animations CSS</span>.
 						</p>
 						<p className="my-3">
 							Outre les compétences présentées au-dessus, je sais également
-							utiliser les langages <span>SCSS</span>, <span>Express</span> et
-							mettre en place un <span>SEO</span>.
+							utiliser les langages <span>PHP/MySQL</span>,{" "}
+							<span>Node/Express</span> et mettre en place un <span>SEO</span>.
 						</p>
 						<p>
 							Je suis curieux de tout et aime les challenges qu’offre la vie.
@@ -118,7 +119,7 @@ export default function About() {
 						/>
 						<MenuItem
 							title="Github"
-							href="https://github.com/JeanPhiH"
+							href="https://github.com/Jphindev"
 							target="_blank"
 							src="/photos/github.svg"
 							width={24}
