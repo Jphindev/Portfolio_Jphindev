@@ -19,10 +19,10 @@ export default function About() {
 							et je suis développeur web junior.
 						</p>
 						<p className="mt-3">
-							Après ma formation qui a démarré ma reconversion professionnelle,
-							je continue à me former de façon <span>autonome</span> sur de
-							nouveaux langages que je mets en pratique via des{" "}
-							<span>projets personnels</span>.
+							Après ma formation de développeur web qui a démarré ma
+							reconversion professionnelle, je continue à me former de façon{" "}
+							<span>autonome</span> sur de nouveaux langages que je mets en
+							pratique via des <span>projets personnels</span>.
 						</p>
 						<p className="mt-3">
 							J’aime les distributions <span>Linux</span>, la logique{" "}

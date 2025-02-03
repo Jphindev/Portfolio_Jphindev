@@ -33,10 +33,12 @@
 		],
 		"mission": "Créer une companion app pour le jeu Balatro",
 		"constraints": "Utilisation des langages PHP/MySQL",
-		"issues": "Gestion de la sauvegarde de la collection: Utilisation d'une entrée en JSON dans la base de données MySQL afin d'ajouter des données dans le tableau de sauvegarde.",
+		"issues": "Gestion de la sauvegarde d'objets débloqués : Utilisation d'une entrée en JSON dans la base de données MySQL afin d'ajouter des données dans le tableau de sauvegarde.",
 		"skills": [
 			{ "skill": "Formulaire de connexion et d'inscription en PHP" },
-			{ "skill": "Gestion de la sauvegarde de la collection de l'utilisateur" },
+			{
+				"skill": "Gestion d'une sauvegarde utilisateur dans la base de données"
+			},
 			{ "skill": "Requêtes SQL pour communiquer avec la base de données" },
 			{ "skill": "Respect de la charte graphique du jeu vidéo" }
 		]
@@ -125,9 +127,9 @@
 		],
 		"mission": "Créer le front-end dynamique d'un site portfolio d'une architecte d'intérieur",
 		"constraints": "Utilisation des langages html, CSS et Javascript seuls",
-		"issues": "Gestion du token d'authentification: Pour autoriser l'ajout d’un nouveau travail, il fallait enregistrer le token dans un sessionstorage puis le déclarer dans le header de la requête lors du fetch post.",
+		"issues": "Gestion du token d'authentification : Pour autoriser l'ajout d’un nouveau travail, il fallait enregistrer le token dans un sessionstorage puis le déclarer dans le header de la requête lors du fetch post.",
 		"skills": [
-			{ "skill": "Création de modales" },
+			{ "skill": "Création de fenêtres modales" },
 			{ "skill": "Communication avec un back-end" },
 			{ "skill": "Requêtes vers une API" },
 			{ "skill": "Respect de la maquette Figma" }
@@ -177,8 +179,12 @@
 		"issues": "Avoir un bon score lighthouse pour mobile: Résolu grâce à l’utilisation de la propriété srcset afin de charger des images plus petites pour l'affichage mobile.",
 		"skills": [
 			{ "skill": "SEO, résultats enrichis et metadonnées" },
-			{ "skill": "Compréhension de l'outil Lighthouse" },
-			{ "skill": "Rendre le site plus inclusif grâce à l'outil WAVE" },
+			{
+				"skill": "Mesure des performances du site avec l'outil Lighthouse"
+			},
+			{
+				"skill": "Rendre le site plus inclusif grâce à l'outil d'accessibilité WAVE"
+			},
 			{ "skill": "Écrire un rapport d'optimisation" }
 		]
 	},
