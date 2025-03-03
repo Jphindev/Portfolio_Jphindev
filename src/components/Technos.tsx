@@ -69,7 +69,7 @@ export default function Technos() {
 				<div className="flex justify-center">
 					<MenuItem
 						title="Github"
-						href="https://github.com/JeanPhiH/Projet_8_Portfolio"
+						href="https://github.com/Jphindev/Portfolio_Jphindev"
 						target="_blank"
 						src="/photos/github.svg"
 						width={24}
