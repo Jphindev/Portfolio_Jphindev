@@ -31,6 +31,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: portfolio-build
+          path: ./out/
       - name: List directory contents
         run: |
           ls -l
@@ -41,5 +42,5 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: portfolio-build
+          local-dir: ./out/
           server-dir: /dev.jphindev.com/
