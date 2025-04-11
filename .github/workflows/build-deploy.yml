@@ -1,0 +1,50 @@
+name: Build and deploy
+on:
+  pull_request:
+    branches:
+      - main
+  # push:
+  #   branches:
+  #     - dev
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Build
+        run: |
+          npm install
+          npm run build
+        working-directory: ./
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: portfolio-build
+          path: ./out/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: portfolio-build
+          path: ./out/
+      - name: List directory contents
+        run: |
+          ls -l
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        #a file is created to track which files have been deployed and stay unchanged during sync
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./out/
+          server-dir: /
+          # server-dir: /dev.jphindev.com/
