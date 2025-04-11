@@ -27,6 +27,13 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: portfolio-build
+      - name: List directory contents
+        run: |
+          ls -l
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         #a file is created to track which files have been deployed and stay unchanged during sync
