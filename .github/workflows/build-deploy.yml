@@ -14,12 +14,12 @@ jobs:
         run: |
           npm install
           npm run build
-
+        working-directory: ./
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: portfolio-build
-          path: ./out/**
+          path: out/**
 
   deploy:
     needs: build
