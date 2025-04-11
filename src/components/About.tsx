@@ -32,7 +32,8 @@ export default function About() {
 						<p className="my-3">
 							Outre les compétences présentées au-dessus, je sais également
 							utiliser les langages <span>PHP/MySQL</span>,{" "}
-							<span>Node/Express</span> et mettre en place un <span>SEO</span>.
+							<span>Node/Express</span> et mettre en place un{" "}
+							<span>pipeline CI/CD</span>.
 						</p>
 						<p>
 							Je suis curieux de tout et aime les challenges qu’offre la vie.
