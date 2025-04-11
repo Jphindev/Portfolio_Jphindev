@@ -1,8 +1,8 @@
 name: Build and deploy
 on:
-  push:
+  pull_request:
     branches:
-      - dev
+      - main
 
 jobs:
   build:
@@ -35,7 +35,7 @@ jobs:
       - name: List directory contents
         run: |
           ls -l
-      - name: FTP-Deploy-Action
+      - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         #a file is created to track which files have been deployed and stay unchanged during sync
         with:
@@ -43,4 +43,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
-          server-dir: /dev.jphindev.com/
+          server-dir: /
