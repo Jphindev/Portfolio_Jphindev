@@ -1,8 +1,11 @@
 name: Build and deploy
 on:
-  push:
+  pull_request:
     branches:
-      - dev
+      - main
+  # push:
+  #   branches:
+  #     - dev
 
 jobs:
   build:
@@ -43,4 +46,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
-          server-dir: /dev.jphindev.com/
+          server-dir: /
+          # server-dir: /dev.jphindev.com/
